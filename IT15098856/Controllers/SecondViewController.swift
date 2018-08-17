@@ -19,6 +19,8 @@ class SecondViewController: UIViewController,UITextFieldDelegate  {
         super.viewDidLoad()
         
         celsiusTextFeild.text=""
+        kelvinTextFeild.text=""
+        fahrenheitTextField.text=""
         
         
         self.celsiusTextFeild.delegate = self
